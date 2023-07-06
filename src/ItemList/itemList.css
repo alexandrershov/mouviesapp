@@ -1,0 +1,26 @@
+
+
+.list-item{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    gap: 36px;
+    justify-content: center;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    animation-name: listItem;
+    animation-duration: 2s;
+    box-sizing: border-box;
+}
+
+@keyframes listItem {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
